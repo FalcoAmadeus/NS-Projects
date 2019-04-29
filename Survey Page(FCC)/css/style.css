@@ -1,0 +1,28 @@
+html,body {
+  background: cyan;
+  text-align: center;
+  font-family: Impact;
+}
+
+#form-page {
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+.rowTab {
+  margin: 10px;
+}
+
+.labels {
+  margin: 10px;
+}
+.checkbox, .radio {
+  position: relative;
+  margin-left: 10px;
+  display: block;
+}
+

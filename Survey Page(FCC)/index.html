@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC: Survey Page</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">Joke Survey</h1>
+<div id="form-page">
+  <p id="description">
+    Which joke do you like the most?
+  </p>
+  <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for "name">Name: </label>
+      </div>
+      <div class="tab">
+        <input type="text" id="name" class="input-field" placeholder="Please type your name" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="email-label" for "email">Email: </label>
+      </div>
+      <div class="tab">
+        <input type="email" id="email" class="input-field" placeholder="Please type your email" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="number-label" for "number">Age: </label>
+      </div>
+      <div class="tab">
+        <input type="number" id="number" min="1" max="125" class="input-field" placeholder="Age" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="currentPos">What option best describes you?</label>
+      </div>
+      <div class="rightTab">
+        <select id="dropdown" name="currentPos" class="dropdown">
+      <option>Select an option</option>
+      <option>Part-Time Student</option>
+      <option>Full-Time Student</option>
+      <option>Part-Time Adult</option>
+      <option>Full-Time Adult</option>
+      <option>Other</option>
+    </select>
+      </div>
+     </div>
+      <div class="rowTab">
+      <div class="labels">
+        <label id="userRating" for "rating">How would you rate this survey: </label>
+      </div>
+      <div class="tab">
+        <li class="radio"><label><input value=1 type="radio" name="radio"> 'Hey, that's pretty good'</label>
+        <li class="radio"><label><input value=2 type="radio" name="radio"> 'MEDIOCRE'</label>
+        <li class="radio"><label><input value=3 type="radio" name="radio"> 'I can't believe you've done this'</label>
+    </div>
+        <div class="rowTab">
+      <div class="labels">
+        <label id="userRating" for "rating">Select your favorite inside joke/s: </label>
+      </div>
+      <div class="tab">
+        <li class="checkbox"><label><input value=1 type="checkbox" name="checkbox"> 'It's a grill'</label>
+        <li class="checkbox"><label><input value=2 type="checkbox" name="checkbox"> 'Assorted Yu-Gi-Oh! Abridged references'</label>
+        <li class="checkbox"><label><input value=3 type="checkbox" name="checkbox"> 'MC Skat Kat from <i>Opposites Attract</i>'</label>
+        <li class="checkbox"><label><input value=4 type="checkbox" name="checkbox"> 'Count Shaqula and other tasteless memes'</label>
+        <li class="checkbox"><label><input value=5 type="checkbox" name="checkbox"> 'I'm a perfectly capable human being- That cliff came out of nowhere</label>
+          <li class="checkbox"><label><input value=6 type="checkbox" name="checkbox"> 'Drink ya juice, don't steal'</label>
+            <li class="checkbox"><label><input value=7 type="checkbox" name="checkbox"> 'I play a land for turn', 'COUNTER IT'</label>
+          </div>
+        </div>
+        <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for "name">Suggestions: </label>
+      </div>
+      <div class="tab">
+        <textarea id="comments" class="input-field" style="height.100px;" placeholder="Insert comments here"></textarea>
+          </div>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

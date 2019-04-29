@@ -1,0 +1,62 @@
+html, body {
+  background: black;
+  background-color: #d3d3d3;
+  font-family: bentham;
+  font-size: 15px;
+}
+
+header {
+  font-color: black;
+  width: 100%;
+  top: 0;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  display: block;
+  background-color: #d3d3d3;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+@media (max-width: 600px) {
+  img {
+    flex-wrap: wrap;
+  }
+}
+
+ul {
+  position: absolute;
+  left: 35vw;
+  top: 1vw;
+  display: flex;
+  width: 30vw;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+form {
+  position: absolute;
+  top: 27px;
+  right: 0vw;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+}
+
+.holder {
+  margin: 100px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Handel Gothic";
+  src: url("//db.onlinewebfonts.com/t/83637255adf8b8192d61945c8b301f7c.eot");
+  src: url("//db.onlinewebfonts.com/t/83637255adf8b8192d61945c8b301f7c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/83637255adf8b8192d61945c8b301f7c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/83637255adf8b8192d61945c8b301f7c.woff") format("woff"), url("//db.onlinewebfonts.com/t/83637255adf8b8192d61945c8b301f7c.svg#Handel Gothic") format("svg");
+}
